@@ -1,7 +1,7 @@
 //开发环境
 module.exports =  {
   NODE_ENV: '"development"',
-  BASE_API: '"http://127.0.0.1"',
+  BASE_API: '"http://localhost:8081"',
   DOMAIN: '"http://localhost:8081"',
-  SOCKET_URL:'"ws://127.0.0.1:8326/"'
+  SOCKET_URL:'"ws://localhost:8326/"'
 }
