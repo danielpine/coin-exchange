@@ -1,8 +1,8 @@
 export const m = {
   navheader:{
-    home:'数字货币交易平台',
+    home:'股票模拟交易平台',
 		homeMenu: "首頁",
-    trade:"幣幣交易",
+    trade:"模拟盘",
     exchange:"創新交易",
     c2c:"場外交易",
     assets:'資產管理',
@@ -128,14 +128,14 @@ export const m = {
     turnoverAmount:"總交易額",
     change:"日漲跌",
 		safe: "安全保障",
-		safeDesc: "5 年数字资产金融服务经验，专业分布式架构和防 DDOS 攻击系统，多重加密机制，多层保障策略，全方位保护用户资金安全",
+		safeDesc: "5 年股票模拟盘金融服务经验，专业分布式架构和防 DDOS 攻击系统，多重加密机制，多层保障策略，全方位保护用户资金安全",
 		auth: "审计认证",
 		authDesc: "无偏性零知识订单加密，定期外部审计，严格把控交易平台合规安全，建立先行赔付机制，设立投资者保护基金",
 		stable: "高效稳定",
 		stableDesc: "多层、多集群系统架构，安全稳定运营超过5年，微秒级高效撮合引擎，证券级先进算法，提供专业量化支持",
-		lightTitle: "全球领先的数字资产金融服务商",
-		lightTitleDesc: "为全球用户提供安全、可信赖的数字资产交易及资产管理服务",
-		siteTitle: "值得信赖的数字资产交易平台",
+		lightTitle: "全球领先的股票模拟盘金融服务商",
+		lightTitleDesc: "为全球用户提供安全、可信赖的股票模拟盘交易及资产管理服务",
+		siteTitle: "值得信赖的股票模拟交易平台",
 		siteTitleDesc: "安全  |  稳定  |  高效"
   },
   // 創新交易

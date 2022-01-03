@@ -2,12 +2,12 @@ import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import fastclick from 'fastclick'
-import VueLazyload from 'vue-lazyload'
+// import fastclick from 'fastclick'
+// import VueLazyload from 'vue-lazyload'
 import store from './store'
 import ElementUI from 'element-ui'
 
-const zhCN = require( 'common/lang/zh')
+const zhCN = require('common/lang/zh')
 const zhHK = require('common/lang/zh-hk')
 const enUS = require('common/lang/en')
 
@@ -29,17 +29,16 @@ import sock from './plugin/sock'
 Vue.use(sock)
 Vue.use(VueI18n) // 通过插件的形式挂载
 
-
 const messages = {
-  'zh-CN' : {
+  'zh-CN': {
     ...zhCN,
     ...eleLocaleZhCn
   },
-  'zh-HK' : {
+  'zh-HK': {
     ...zhHK,
     ...eleLocaleZhHk
   },
-  'en-US' : {
+  'en-US': {
     ...enUS,
     ...eleLocaleEnUs
   }
@@ -61,7 +60,7 @@ import '../static/css/bootstrap.min.css'
 import '../static/css/animate.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VModal from 'vue-js-modal'
-import bus from 'components/vote/common/bus';
+import bus from 'components/vote/common/bus'
 Vue.prototype.bus = bus
 
 Vue.use(BootstrapVue)
@@ -77,6 +76,5 @@ new Vue({
   store,
   i18n,
   render: h => h(App)
-
 })
 
